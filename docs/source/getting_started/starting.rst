@@ -11,6 +11,8 @@ Start JupyterLab using:
 .. code:: bash
 
     jupyter lab
+    or
+    jupyter-lab (in Windows)
 
 JupyterLab will open automatically in your browser.
 
@@ -21,7 +23,7 @@ Example:
 .. code:: bash
 
     #Windows Example
-    jupyter lab --notebook-dir=E:/ --preferred-dir E:/Documents/Somewhere/Else
+    jupyter-lab --notebook-dir=E:/ --preferred-dir E:/Documents/Somewhere/Else
     #Linux Example
     jupyter lab --notebook-dir=/var/ --preferred-dir /var/www/html/example-app/
 
